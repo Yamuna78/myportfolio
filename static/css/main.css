@@ -461,8 +461,7 @@ body {
 }
 
 #numbers {
-    background: url(../img/bg/bg-2.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: none;
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -470,9 +469,10 @@ body {
 
 #numbers .overlay {
     padding: 60px 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: #f5f5f5;
     min-height: 100vh;
     width: 100%;
+    color: #333;
 }
 
 ul.numbersList {
@@ -561,13 +561,13 @@ ul.numbersList span{
 /////////////////////////////////////////////////////////////////////*/
 
 #contact {
-    background: url(../img/bg/contact-bg.jpg) no-repeat center center fixed;
+    background: none;
     background-size: cover;
 }
 
 #contact .block-heading h1
 {
-	color: #fff;
+	color: #333;
 	font-family: 'Milonga', cursive;
 	font-weight: 400;
 	font-size: 55px;
@@ -579,20 +579,21 @@ ul.numbersList span{
     font-size: 18px;
     line-height: 36px;
     margin-top: 25px;
+    color: #333;
 }
 
 .contact-info i {
     width: 40px;
     height: 40px;
-    color: white;
     padding-top: 7px;
     font-size: 25px;
-    border: 1px solid #fff;
+    border: 1px solid #333;
     text-align: center;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
+    color: #333;
 }
 
 .contact-info p {
@@ -610,37 +611,37 @@ textarea {
 	margin: 0 auto;
 	width: 100%;
 	background: transparent;
-	border: 1px solid #fff;
+	border: 1px solid #333;
 	padding: 12px 15px;
 	margin-bottom: 30px;
+    color: #333;
 }
 
 input[type="submit"] {
 	background: transparent;
-	border: 1px solid #fff;
+	border: 1px solid #333;
 	width: 100%;
 	padding: 10px;
 	transition: 0.5s background linear;
 	font-weight: bold;
+    color: #333;
 }
 
 input[type="submit"]:hover {
-	background: #fff;
-	border-color: #fff;
-	transition: 0.5s background linear;
-	color: #333;
+	background: #333;
+	color: #fff;
 }
 
 ::-webkit-input-placeholder {
-   color: #fff;
+   color: #333;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;  
+::-moz-placeholder {
+   color: #333;
 }
 
-:-ms-input-placeholder {  
-   color: #fff;  
+:-ms-input-placeholder {
+   color: #333;
 }
 
 
